@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.switchTerminal"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.quickOpenTerm"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "shift+delete",
+    "command": "-deleteFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  }
+]
